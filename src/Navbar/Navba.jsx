@@ -29,7 +29,9 @@ const Navba = () => {
           <button><FaFacebookF /></button>
         </div>
         <div className="font">
-          <button onClick={()=>setLog(!log)}>{log ? <FaTimes /> : <FaBars />}</button>
+          <button onClick={()=>setLog(!log)}>
+            {log ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
       </div>
     </div>

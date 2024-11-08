@@ -21,7 +21,7 @@ export default data;
 export const product = [
   {
     id : 1,
-    image : '/hotels/2.jpg',
+    image : './hotels/2.jpg',
     head : 'SWIMMING POOL',
     wit : 'Additional perks of being an in-house guest is to enjoy a day or night time'
   },
