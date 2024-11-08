@@ -1,0 +1,172 @@
+.footer{
+  padding: 80px 0px 10px 0px;
+  background: #0f111b;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.foot{
+  max-width: 1100px;
+  margin: auto;
+}
+.foo{
+  display: flex;
+  justify-content: space-between;
+}
+.foot hr{
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  margin-top: 80px;
+}
+.foot1, .foot3{
+  flex: 1;
+}
+.foot1 li{
+  line-height: 35px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+}
+.foot1 li:hover{
+  color: #cda274;
+  transition: all 0.4s ease-out;
+}
+.foot2{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.foot2 a{
+  color: #f0f0f0;
+}
+.foot2 img{
+  width: 120px;
+  object-fit: cover;
+}
+.foot2_div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.foot3{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.foot3 h4{
+  color: #cda274;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 500;
+}
+.foot3 p{
+  font-size: 18px;
+}
+.foot_icons{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
+}
+.foot_icons span:hover{
+  color: #cda274;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.foot4 p{
+  text-align: center;
+  color: #cda274;
+  margin: 20px 0px;
+}
+.inp{
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.inp input{
+  width: 100%;
+  padding-left: 10px;
+}
+.inp input::placeholder{
+  color: #929292;
+}
+.inp button{
+  color: #ffffff;
+  padding: 8px 10px;
+  background: #cda274;
+}
+.inp button:hover{
+  background: transparent;
+  color: #cda274;
+  cursor: pointer;
+  transition: 0.4s ease-out all;
+}
+
+@media screen and (max-width : 750px){
+  .footer{
+    padding: 20px 0px;
+  }
+  .foot{
+    margin: 0px 20px;
+  }
+  .foo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .foot1 li{
+    text-align: center;
+    font-size: 10px;
+  }
+  .foot2 img{
+    width: 60px;
+  }
+  .foot2_div{
+    font-size: 10px;
+  }
+  .foot3 h4, .foot3 p{
+    font-size: 10px;
+    text-align: center;
+  }
+  .foot4{
+    font-size: 8px;
+  }
+  .foot hr{
+    height: 1px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width : 751px) and (max-width : 1099px){
+  .foot{
+    margin: 0px 20px;
+  }
+  .foot hr{
+    height: 1px;
+    width: 100%;
+  }
+  .foot1 li{
+    font-size: 12px;
+  }
+  .foot2 img{
+    width: 60px;
+  }
+  .foot2_div{
+    font-size: 11px;
+  }
+  .foot3 h4, .foot3 p{
+    font-size: 11px;
+    text-align: center;
+  }
+  .foot4{
+    font-size: 10px;
+  }
+}

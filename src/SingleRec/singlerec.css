@@ -1,0 +1,38 @@
+.sec{
+  max-width: 1100px;
+  margin: auto;
+}
+.sec h1{
+  text-align: center;
+  margin: 50px 0px;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #cda274;
+}
+.sec1{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.sec1 img{
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+.sec2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec2 p{
+  font-size: 19px;
+  text-align: justify;
+}
+.sec2 button{
+  padding: 15px 18px;
+  background: #043040;
+  max-width: max-content;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 19px;
+}

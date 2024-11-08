@@ -1,0 +1,83 @@
+.meet{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  padding: 80px 0px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.met{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.meet2{
+  flex: 1;
+}
+.meet2 img{
+  width: 100%;
+  object-fit: cover;
+}
+.meet3{
+  flex: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.meet3 h2{
+  text-transform: uppercase;
+}
+.meet3 button{
+  padding: 12px 16px;
+  background: #cda274;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+  width: max-content;
+}
+.meet3 button:hover{
+  border: 0.7px solid #000000;
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width : 650px){
+  .met{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0px 20px;
+  }
+  .meet3 h2{
+    font-size: 14px;
+  }
+  .meet3 p{
+    font-size: 12px;
+  }
+  .meet3 button{
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+}
+
+@media screen and (min-width : 651px) and (max-width : 1099px){
+  .meet{
+    margin: 0px 20px;
+  }
+
+  .meet3 h2{
+    font-size: 16px;
+  }
+  .meet3 p{
+    font-size: 13px;
+  }
+  .meet3 button{
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+}

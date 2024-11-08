@@ -1,0 +1,159 @@
+.sit{
+  background-image: url(/src/1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+}
+.sit1{
+  max-width: 1100px;
+  margin: auto;
+}
+.sit1 h1{
+  font-size: 42px;
+  color: #ffffff;
+}
+.sit1 p a{
+  font-size: 19px;
+  color: #cda274;
+}
+.sit1 p span{
+  color: #ffffff;
+  font-size: 19px;
+}
+.sit_div{
+  margin: 40px 0px;
+  max-width: 1100px;
+  margin: auto;
+}
+.sit_div h1{
+  text-transform: uppercase;
+  color: #cda274;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px 0px;
+}
+.sit_div h1 span{
+  color: #043040;
+}
+.sit_data{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.sit_up{
+  display: flex;
+  gap: 10px;
+}
+.sit_img{
+  padding: 5px;
+  border: 0.7px solid #c2c2c2;
+}
+.sit_img img{
+  width: 240px;
+  height: 100%;
+  object-fit: cover;
+}
+.sit_write{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #043040;
+}
+
+.sit_write span{
+  text-transform: uppercase;
+  transition: 0.3s all ease-out;
+}
+.sit_write span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width : 650px){
+  .sit_data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px 20px;
+  }
+  .sit_up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sit1{
+    margin: 0px 20px;
+  }
+  .sit1 h1{
+    font-size: 14px;
+  }
+  .sit1 p a, .sit1 p span{
+    font-size: 13px;
+  }
+  .sit_img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sit_div h1{
+    font-size: 16px;
+  }
+  .sit_write h2{
+    font-size: 14px;
+  }
+  
+  .sit_div h1{
+    margin: 20px 0px;
+  }
+  .sit_write p{
+    font-size: 12px;
+  }
+  .sit_write span{
+    font-size: 10px;
+  }
+}
+
+
+
+@media screen and (min-width : 651px) and (max-width : 1099px){
+  .sit_data{
+    margin: 0px 20px;
+  }
+  .sit1{
+    margin: 0px 20px;
+  }
+  .sit1 h1{
+    font-size: 17px;
+  }
+  .sit_up{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sit1 p a, .sit1 p span{
+    font-size: 15px;
+  }
+  .sit_img{
+    width: 100%;
+  }
+  .sit_img img{
+    width: 100%;
+    height: 100%;
+  }
+  .sit_div h1{
+    font-size: 20px;
+  }
+  .sit_write h2{
+    font-size: 16px;
+  }
+  .sit_div h1{
+    margin: 40px 0px;
+  }
+  .sit_write p{
+    font-size: 14px;
+  }
+  .sit_write span{
+    font-size: 11px;
+  }
+}
